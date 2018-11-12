@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+   <android.support.v7.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="180sp"
+       app:cardCornerRadius="10sp"
+       android:id="@+id/button"
+       app:cardElevation="5sp"
+       android:layout_margin="5sp">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:weightSum="4"
+           android:orientation="vertical"
+           android:layout_height="match_parent">
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="0sp"
+               android:layout_weight="3.5"
+               android:scaleType="fitXY"
+               android:id="@+id/button_image"
+               android:transitionName="transition_button"
+               android:src="@drawable/button"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="0sp"
+               android:layout_weight="0.5"
+               android:text="Button Mushrooms"
+               android:textSize="20sp"
+               android:textColor="#000"
+               android:textAlignment="center"
+               android:textStyle="italic|bold"/>
+
+
+       </LinearLayout>
+
+   </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginLeft="5sp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="172sp"
+                app:cardElevation="5sp"
+                android:id="@+id/oyster"
+                app:cardCornerRadius="10sp"
+                android:layout_height="170sp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="4">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0sp"
+                        android:layout_weight="3.5"
+                        android:src="@drawable/oyster"
+                        android:id="@+id/oyster_image"
+                        android:transitionName="transition_oyster"
+                        android:scaleType="fitXY"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0sp"
+                        android:layout_weight="0.5"
+                        android:text="Oyster Mushrooms"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textStyle="italic|bold"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="172sp"
+                android:layout_marginLeft="10sp"
+                app:cardElevation="5sp"
+                android:id="@+id/shiitake"
+                app:cardCornerRadius="10sp"
+                android:layout_height="170sp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="4"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0sp"
+                        android:layout_weight="3.5"
+                        android:id="@+id/shiitake_image"
+                        android:transitionName="transition_shiitake"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/shiitake"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0sp"
+                        android:layout_weight="0.5"
+                        android:text="Shiitake Mushrooms"
+                        android:textSize="17sp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textStyle="italic|bold"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+     <android.support.v7.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_height="170sp"
+         app:cardElevation="5sp"
+         android:id="@+id/rishi"
+         app:cardCornerRadius="10sp"
+         android:layout_marginLeft="5sp"
+         android:layout_marginRight="5sp">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             android:weightSum="4">
+
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="0sp"
+                 android:layout_weight="3.5"
+                 android:src="@drawable/ganoderma"
+                 android:transitionName="transition_rishi"
+                 android:id="@+id/rishi_image"
+                 android:scaleType="fitXY"/>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="0sp"
+                 android:layout_weight="0.5"
+                 android:textAlignment="center"
+                 android:text="Rieshi Mushrooms"
+                 android:textSize="18sp"
+                 android:textColor="#000"
+                 android:textStyle="italic|bold"/>
+
+
+
+         </LinearLayout>
+
+
+     </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+</LinearLayout>

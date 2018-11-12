@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Mushroom Technology</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reishi_intro">Reishi Mushroom also known as Lingzhi mushroom. Scientificly known as Ganoderma Lucidum.
+        Sheng Nong: Father of Chineese medicine kept this mushroom in the category of superior herbs in his book. Reishi is used as medicine in comman. Reishi has lot
+        of health benefits like it acts as anti viral, it helps to cure lungs diseases like asthma, it is also helpful in
+        Stomach ulcers, Liver disease, Kidney disease, Allergy, Diabetes mellitus, Insomnia, Altitude sickness, Chronic fatigue syndrome.
+        It has the properties of anti cancer also. \n
+        <b>Nutritional Values:-</b>
+    </string>
+    <string name="oyster_intro">Oyster Mushroom is comman exmaple of mushroom after button mushroom. Scientific name of oyster
+    is Pleurotus. This is also known as Dhingri in India. These mushrooms has great nutritional values. This is a good source of
+        diatry protein and food. This mushroom was first cultivated by Flank in German in 1917. It is grown almost all over the world
+        due to its pleasent flavour, long shelf live and simple cultivation methods.\n
+        <b>Nutritional Values:-</b>
+    </string>
+    <string name="button_intro">Button Mushroom is the most comman type of Mushroom and is also known as Comman Mushroom.
+    Scientific name for button mushroom is Agaricus Bisporus and this mushroom is native to grasslands in Europe and North America.
+        Agaricus is a genus of mushrooms containing both edible and poisonous species, with possibly over 300 members worldwide. It is a fungus. It originated in Brazil,
+        but is now grown in China, Japan, and Brazil for sale. A solution containing chemicals that are taken from the plant (extract) is used as medicine.
+        Agaricus mushroom contains chemicals that might improve the body use of insulin and decrease insulin resistance in people with type 2 diabetes. Some developing
+        research also suggests it might be able to strengthen the immune system, fight tumor development, and work as an antioxidant.
+        About 17 species of Agaricus have been reported from India. It is commonly known as kukurmutta in U.P. and dhingri in Punjab. A. campestris (field mushroom),
+        A. bisporus (A. brunnescence; white mushroom) are common edible mushrooms. A. bisporus (cultivated mushroom) is widely cultivated for food purposes in Solan
+        (Himachal Pradesh). Some species of Agaricus are poisonous (e.g., A. xanthoderma) and some species may cause gastrointestinal disturbances in some persons
+        (e.g., A. placomyces, A. silvaticus).\n
+        Nutritional Values:-\n
+
+    </string>
+    <string name="button_cult">Mushrooms are considered to be heterotrophic (saprophytic) organisms and thus possess no chlorophylls, but decompose organic materials to feed off.
+        Agaricus bisporus can be cultivated on various lignocellulosic materials. Growing and cultivation of this species has succeeded on different composted organic such as chicken,
+        horse or pigeon manures, straw residues from  wheat, oat, tifton and reed crops corn. Cultivation of Agaricus bisporus (button mushroom) and its usages in the biosynthesis of
+        nanoparticles. Button Mushrooms does not require light. But it is not necessary that the mushrooms should be grown in dark environment.
+        The benefit of growing them in dark is that the moisture content can easily be preserved in dark. Button mushrooms need temperature of 55-60F.
+        They need a high relative humidity.
+    </string>
+    <string name="shiitake_intro">Shiitake mushroom is edible mushroom and is native to East Asia, which is cultivated and consumed in many
+        Asian countries.It is considered as medicinal mushroom also. The Scientific name for this mushroom is Lentinula Edodes. Shiitake normally
+        grows on the trees or woods which are decaying. Its natural distribution includes warm and moist weather.\n
+        Nutrition Values:-
+
+
+    </string>
+    <string name="reishi_clut">Reishi Mushroom is found infrequently in nature, and that is why this mushroom is highly chrished and expensive.
+        In ancient times in China, the person who used to find and pick reishi mushrooms, was given good rewards and high rank officials job.
+        It was first cultivated by man in 1970. The most comman method for cultivating reishi are Wood Log Cultivation Method, Short Wood Segment
+        Method, Tree Stump Cultivation Method, Sawdust bag Cultivation Method and Bottle Cultivation Method. Optimal temperature for growth
+        of this mushroom is 25-28 degree C, and Carbondioxide content should be around 600ppm. And Relative Humidity should be around 80-85%.
+    </string>
+
+    <string name="shitake_cult">
+        Shiitake, Lentinula edodes, is a saprophyte and white rot fungus which feeds on dead oak tree species in nature. In its life cycle, each basidium under the gill of a fruit
+         body produces four basidiospores which sporulate under a certain condition to become a primary mycelium and then a secondary mycelium by fusion
+        between compatible mycelia. Shiitake spawn is a medium, colonized by the secondary mycelia. The secondary mycelia will eventually form fruit bodies.
+        Ideal temperature for shiitake is 21-27 degree C. Ideal relative humidity is 95-100%.
+    </string>
+    <string name="oyster_cult">
+        The ideal temperature of oyster is 24-25 degree C. The relative humidity content should be around 85-95%.
+        It should be grown under controlled conditions and in dark environment. The things you require for this are straw, container,
+        oyster mushroom spawn, gas burner, a dark room with maintained temperature conditions.
+    </string>
+</resources>

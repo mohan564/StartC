@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.coders3.startc.Oyster_introduction">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_margin="5sp"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/oyster_intro"/>
+
+            <ImageView
+                android:layout_margin="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:src="@drawable/nutri_oyster"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:src="@drawable/minerals_oyster"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Different Species:-"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:src="@drawable/a"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:src="@drawable/b"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:src="@drawable/c"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:src="@drawable/d"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

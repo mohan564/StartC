@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.coders3.startc.Shiitake_Products">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_margin="5sp"
+                android:textStyle="italic|bold"
+                android:text="Used as Food (Dried) :-"
+                android:textColor="@color/colorPrimary"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                android:src="@drawable/dried_shitake"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:layout_margin="5sp"
+                android:textStyle="bold|italic"
+                android:text="Used as a Medicine :-"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                android:src="@drawable/capsuled_shitake"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="italic|bold"
+                android:text="Used as Food (Chips):-"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                android:src="@drawable/chips_shitake"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="italic|bold"
+                android:text="Used as Powdered Form :-"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                android:src="@drawable/powder_shitake"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
